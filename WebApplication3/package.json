@@ -3,7 +3,8 @@
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@playwright/test": "^1.35.0",
-    "babel-plugin-istanbul": "^6.1.1"
+    "babel-plugin-istanbul": "^6.1.1",
+    "istanbul": "^0.4.5"
   },
   "scripts": {
     "test": "npx nyc --all --reporter=lcov --reporter=text -- npx playwright test --debug"
@@ -24,7 +25,7 @@
       "coverage"
     ],
     "include": [
-      "src/**/*.js"
+      "wwwroot/js/*.js"
     ]
   },
   "dependencies": {
