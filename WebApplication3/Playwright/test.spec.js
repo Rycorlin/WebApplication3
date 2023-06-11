@@ -18,5 +18,5 @@ test('My Playwright Test', async ({ page }) => {
         console.log(JSON.stringify(converter.toIstanbul()));
     }
 
-    await browser.close();
+    
 });
